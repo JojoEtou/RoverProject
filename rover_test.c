@@ -39,7 +39,7 @@ void speed_test(void){
 
 void button_emergency_test(void){
    output_controller output;
-   output.freq_echantillonage=1;
+   output.freq_echantillonage=2;
    output.retour_base=false;
 
    rover rover_robot=create_rover(0,0,100);
