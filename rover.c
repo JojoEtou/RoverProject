@@ -7,6 +7,7 @@
 
 float coef_reduction_freq=0.2;
 float coef_augmentation_freq=1.3;
+float coef_test = 0.5;
 
 float coef_reduction_speed=0.5;
 float coef_augmentation_speed=1.5;
@@ -18,7 +19,6 @@ float convert_ms_to_kmh(float speed){
 float convert_kmh_to_ms(float speed){
 	return speed/3.6;
 }
-
 
 void apply_speed(output_controller output, rover * rover_robot){
 	rover_robot->roue1.vitesse=output.vitesse_droit;
