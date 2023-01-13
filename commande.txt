@@ -1,0 +1,7 @@
+Lancer Jenkins en localhost8080 : sudo systemctl start jenkins
+Lien : http://localhost:8080/
+
+Lancer Ngrok : ./ngrok http 8080 (Lieu : cd /usr/local/bin)
+
+Push sur git : git add . && git commit -m "nom du commit"
+	       git push
